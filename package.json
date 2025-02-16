@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "migrate": "prisma migrate dev --name init",
+    "migrate:deploy": "prisma migrate deploy",
+    "generate": "prisma generate",
+    "postinstall": "prisma generate && prisma migrate deploy"
   },
   "keywords": [],
   "author": "",
