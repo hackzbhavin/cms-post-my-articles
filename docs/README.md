@@ -1,3 +1,23 @@
+## 📸 Screenshots
+
+### 🏠 Home Page for all posts
+![Homepage Screenshot](../screenshots/HomePage.png)
+
+### Create Post Page
+![Homepage Screenshot](../screenshots/CreatePost.png)
+
+### Edit Post Page
+![Homepage Screenshot](../screenshots/EditPost.png)
+
+### Delete Post Popup
+![Homepage Screenshot](../screenshots/DeletePost.png)
+
+### Read Post
+![Homepage Screenshot](../screenshots/ReadPost.png)
+
+
+
+
 # MyCMS - Deliverables & Documentation
 
 ## 📌 Overview
@@ -14,13 +34,13 @@
 ## 1️⃣ Source Code 📂
 
 The source code is hosted on:
-🔗 [GitHub Repository](https://github.com/your-repo-link) *(Replace with actual link)*
+🔗 [GitHub Repository]([https://github.com/your-repo-link](https://github.com/hackzbhavin/cms-post-my-articles.git))
 
 To clone the repository:
 
 ```sh
- git clone https://github.com/your-repo-link.git
- cd mycms
+ git clone https://github.com/hackzbhavin/cms-post-my-articles.git
+ cd cms-post-my-articles
 ```
 
 ---
@@ -85,7 +105,7 @@ Ensure you have the following installed:
 
 ### Preferred Platforms
 
-The CMS can be deployed on **Vercel** or **Railway**.
+The CMS has be deployed on **Vercel**.
 
 ### Steps for Deployment
 
@@ -98,6 +118,14 @@ The CMS can be deployed on **Vercel** or **Railway**.
 
 🔗 **Live Demo:** [CMS Deployment Link](https://cms-post-my-articles.vercel.app/)
 
+### **Live Database**
+
+1. Open **Google Cloud Platform (GCP)**.  
+2. Create a **SQL Instance** and select **MySQL** as the database type.  
+3. Set up a **username and password**, then navigate to the **Databases** section to create a new database.  
+4. Connect to the database and run **migrations**.  
+5. Keep in mind that **IP connection issues are common**. Initially, allow all connections by setting `0.0.0.0/0`, and later restrict access to enhance security.
+   
 ---
 
 ## 5️⃣ Features 📝
@@ -110,4 +138,6 @@ The CMS can be deployed on **Vercel** or **Railway**.
 ✅ **Custom CSS Styling** (No Tailwind, pure CSS)  
 
 ---
+
+
 
