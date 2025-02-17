@@ -1,4 +1,4 @@
-import { ButtonVariants } from "../enums";
+import { ButtonVariants, ToastVariants } from "../enums";
 
 export interface IPostProps {
   id: string;
@@ -35,3 +35,12 @@ export interface IDeletePopupProps {
   onClose: () => void;
   onConfirm: () => void;
 }
+
+
+export interface IToastProps {
+  message: string;
+  type?: ToastVariants;
+  duration?: number;
+  onClose?: () => void;
+}
+

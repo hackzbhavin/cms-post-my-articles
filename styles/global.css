@@ -574,3 +574,32 @@ iframe {
   height: 400px;
   width: 100%;
 }
+
+.toast {
+  position: fixed;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: var(--background-color);
+  font-weight: bold;
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.toast-success {
+  background-color: hsl(140, 60%, 60%);
+}
+
+.toast-error {
+  background-color: var(--secondary-color);
+}
+
+.toast-info {
+  background-color: var(--primary-color);
+}

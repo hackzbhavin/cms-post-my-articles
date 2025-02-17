@@ -70,3 +70,10 @@ export const ERROR = {
   FAILED_TO_FETCH_POST: "Failed to fetch post",
   POST_NOT_FOUND: "Post not found",
 };
+
+export const TOAST_MESSAGE = {
+  POST_CREATED : "Post created successfully!",
+  POST_EDITED : "Post edited successfully!",
+  ERROR_OCCURRED : "Sorry error occurred, try again later",
+  POST_DELETED : "Post delete successfully"
+}

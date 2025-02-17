@@ -3,3 +3,9 @@ export enum ButtonVariants {
   SECONDARY = "secondary",
   TERTIARY = "tertiary",
 }
+
+export enum ToastVariants {
+  SUCCESS = "success",
+  FAILURE = "failure",
+  INFO = "info",
+}
