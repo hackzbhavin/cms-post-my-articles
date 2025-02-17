@@ -94,16 +94,9 @@ The CMS can be deployed on **Vercel** or **Railway**.
 1. Push code to GitHub.
 2. Go to [Vercel](https://vercel.com/) and import the repository.
 3. Set environment variables in **Vercel Dashboard**.
-4. Click **Deploy**.
+4. Click **Deploy**.    
 
-#### **Railway Deployment** (Optional)
-
-1. Create a **new project** in [Railway](https://railway.app/).
-2. Connect the MySQL database.
-3. Set up environment variables.
-4. Deploy the project.
-
-🔗 **Live Demo:** [CMS Deployment Link](https://your-vercel-link.vercel.app) *(Replace with actual link)*
+🔗 **Live Demo:** [CMS Deployment Link](https://cms-post-my-articles.vercel.app/)
 
 ---
 
@@ -117,12 +110,4 @@ The CMS can be deployed on **Vercel** or **Railway**.
 ✅ **Custom CSS Styling** (No Tailwind, pure CSS)  
 
 ---
-
-## 🎯 Next Steps
-
-- Test the CMS for any bugs.
-- Add more plugins (e.g., Image Upload, Markdown Support).
-- Improve the admin panel UI.
-
-🔹 Need help? Open an issue on GitHub! 🛠️
 

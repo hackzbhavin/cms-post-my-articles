@@ -15,14 +15,12 @@ export default async function handler(
 
   const { title, content } = req.body;
 
-  console.log(req.body);
   try {
     const slug = generateSlug(title);
 
     const post = await PostService.createPost(slug, title, content);
     return res.status(HttpStatusCode.Created).json(post);
   } catch (error) {
-    console.log("Error ", error);
     return res
       .status(HttpStatusCode.InternalServerError)
       .json({ error: ERROR.FAILED_TO_CREATE_POST });

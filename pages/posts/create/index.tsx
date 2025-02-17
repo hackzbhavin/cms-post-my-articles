@@ -12,7 +12,7 @@ export default function CreatePost() {
         router.push(NAVIGATE.TO_HOME);
       })
       .catch((e) => {
-        console.log(e);
+        // console.log(e);
       });
   };
 
