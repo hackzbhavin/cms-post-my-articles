@@ -15,6 +15,8 @@
 ### Read Post
 ![Homepage Screenshot](../screenshots/ReadPost.png)
 
+### Preview Post while edit or create
+![Homepage Screenshot](../screenshots/PreviewPost.png)
 
 
 
